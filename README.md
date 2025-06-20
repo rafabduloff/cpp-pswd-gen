@@ -22,7 +22,7 @@ Supports multiple generation modes with a high level of customization.
 Run the executable after building:
 
 ```bash
-./cpp-pswd-gen
+./password_generator
 ````
 
 ---
@@ -40,10 +40,10 @@ git clone https://github.com/rafabduloff/cpp-pswd-gen.git
 cd cpp-pswd-gen
 
 # Build with g++
-g++ -std=c++17 -o cpp-pswd-gen main.cpp
+g++ -std=c++17 -o password-generator main.cpp
 
 # Run
-./cpp-pswd-gen
+./password-generator
 ```
 
 If you have multiple source files or use CMake, update these commands accordingly.
@@ -68,17 +68,17 @@ git clone git@github.com:rafabduloff/cpp-pswd-gen.git
 cd cpp-pswd-gen
 
 # Build with MSVC (Visual Studio Developer Command Prompt)
-cl /EHsc /std:c++17 main.cpp /Fe:cpp-pswd-gen.exe
+cl /EHsc /std:c++17 main.cpp /Fe:password_generator.exe
 
 # Run
-.\cpp-pswd-gen.exe
+.\password_generator.exe
 ```
 
 Alternatively, you can build with MinGW's g++ if installed:
 
 ```powershell
-g++ -std=c++17 -o passgen.exe main.cpp
-.\passgen.exe
+g++ -std=c++17 -o password_generator.exe main.cpp
+.\password_generator.exe
 ```
 
 </details>
